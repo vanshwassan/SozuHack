@@ -75,56 +75,31 @@ Or get started now with the API3 Market.
 
 - [API3 Market](https://market.api3.org/)
 
-# Hackathon Challenge: Using API3's First-party Oracles to power DeFi dApps
+# Bounty Challenge: Fork, Adapt, and Deploy an EVM Lending Protocol to Mantle Network with API3 data feeds integrated
 
-### 🍴 Fork a lending protocol and integrate API3 data feeds ($1500)
+## Prize: $2500 (5 x $500) and Opportunity to Win a $10k Grant!
 
-We are looking for participants to implement dAPIs within a lending protocol on any chain. Participants are free to fork an existing lending protocol/ make one and use self-funded dAPIs for the price feeds. The below resources should guide you on the contract implementation of dAPIs. 
+Mantle, the all-inclusive, scalable, and interoperable blockchain network, is thrilled to announce an exciting bounty challenge for innovative developers! We are inviting talented developers to fork a leading EVM (Ethereum Virtual Machine) lending protocol and deploy it on the Mantle Network.
+The catch? You need to seamlessly integrate dAPIs (Decentralized Application Interfaces) into your solution. Your task is to show a fully functional lending decentralized application (dApp) running smoothly on the Mantle Network. 
 
-- [Activating a self-funded dAPI](https://docs.api3.org/guides/dapis/subscribing-self-funded-dapis/)
-- [Reading a dAPI](https://docs.api3.org/guides/dapis/read-self-funded-dapi/)
-- [data-feed-reader-example](https://github.com/api3dao/data-feed-reader-example)
+### Getting Started
 
-### 📣 Utilizing API3 data feeds within Paymasters ($1500)
+API3 Hacker Repo: https://github.com/vanshwassan/SozuHack
+Real-time Market Data: https://market.api3.org/dapis?chains=mantle-goerli-testnet
 
-The introduction of Account Abstraction to the zkSync Era scaling solution realizes the concept of smart contract accounts (SCAs) for functionality such as social recovery, spending rules and flexible validation. 
+### Challenge Breakdown:
 
-Paymasters enable gas in ERC20 to be paid from a separate contract, basically enabling gasless transactions. At the moment, the majority of EVM-based Externally Owned Accounts (EOAs) have a self-custody model, meaning they cannot utilize a paymasters contract. However, on zkSync Era paymasters can be utilized by both EOAs and SCAs.
+1. **Fork an EVM Lending Protocol:** Choose a leading, well-established EVM lending protocol and fork it. The protocol should offer robust lending functionalities and maintain a high standard of security.
+2. **Deploy on Mantle:** Adapt the forked protocol to be deployable on the Mantle Network. Leverage Mantle's unique capabilities and adapt the code as needed to ensure smooth operation on our network.
+3. **Integrate dAPIs:** Incorporate Mantle's dAPIs into your application to facilitate secure, decentralized user interaction. The application's functionalities must be accessible and smoothly operable via these dAPIs.
+4. **Launch a Working DeFi protocol:** Your ultimate deliverable will be a live, operational lending dApp that can facilitate loan origination, tracking, and repayment in a decentralized manner.
 
-**Use zkSync’s paymaster with dAPIs to power existing dApps on zkSync Era**
+### Prizes
 
-dAPIs can be used within zkSync’s Paymaster contract to enable users to pay for gas in any token of their choice on your platform. Within a paymaster, dAPIs can provide price data on-chain for execution.
-
-Participants are required to implement a custom API3 zkSync’s paymaster within their projects that can sponsor the gas fee for users’ transactions on their dApps/platforms.
-
-Participants can follow the [Paymasters with dAPIs on zkSync](https://github.com/vanshwassan/zk-paymaster-dapi-poc) guide to implement your ideas around the same.
-
-**Resources:** 
-
-- [Hello World on zkSync Era Testnet](https://era.zksync.io/docs/dev/building-on-zksync/hello-world.html)
-- [zkSync + dAPIs Paymasters Integration](https://era.zksync.io/docs/dev/tutorials/api3-usd-paymaster-tutorial.html)
-- [Using dAPIs on zkSync Era Testnet](https://vanshwassan.medium.com/using-dapis-on-zksync-era-testnet-30f12efdd95f)
-
-## Submission Requirements
-
-All hackathon participants who are competing for the API3 bounties are required to submit a project that meets the following requirements:
-
-- The project should be submitted to the [SozuHack Hackathon 2023 Devfolio page](https://sozuhack01.devfolio.co/overview) by the deadline.
-- Use of API3’s self-funded dAPIs that facilitates a proper use-case.
-- The project should be live with a working frontend deployed.
-- The project should be open-source with a public Github repository with the codebase, 
-- The repo must be licenced with one of the following open source licences: GPL-3.0, or MIT.
-
-## Judging criteria
-
-Participants may submit a maximum of 1 project by the hackathon deadline. After submission, projects will be judged by the following criteria:
-
-- **Real-world Functionality**: How well does the project work? Does it meet the minimum requirements?
-
-- **Technical Difficulty**: How technically challenging was it to build the project?
-
-- **Originality**: How original is the idea? How much does it differ from other existing solutions?
-
-- **Design**: How well-designed is the project? Is it easy to use? Is it visually appealing?
-
-- **BONUS** - Adding functionality to the Airnode protocol that will improve performance, interoperability, or further develop use cases.
+- **Bounty:** Each winning team will receive a bounty of $500, broken down into five payments of $500 each, upon the successful completion and demonstration of the lending dApp.
+- **Grant Opportunity:** Additionally, three outstanding projects will be selected for a $10,000 grant each from Mantle. These grants are designed to support further development and scaling of the project on our platform.
+### Evaluation Criteria:
+- Quality of the forked code and deployment on Mantle with dAPIs integrated. 
+- Interesting concepts for DeFi UX/UI that leverage the unique features of the Mantle Network.
+- Some thought into deployment to Mantle and depth of documentation.
+- Innovative approach of crypto, forex, equities and commodities data feeds can underpin DeFi markets and services
